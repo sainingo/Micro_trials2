@@ -2,16 +2,44 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>Fork Me! FCC: Test Suite Template</title>
+    <title>Microverse Trials</title>
     <link rel="stylesheet" href="css/style.css">
   </head>
 
   <body>
-
-    <p>Hello world, we are software developers.</p>
-
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-
-    <script  src="js/index.js"></script>
+    <header id="header">
+  
+      <nav id="nav-bar">
+        <a href="#welcome"> <p class="nav-link">Welcome</p> </a>
+        <a href="#review"> <p class="nav-link">Review</p> </a>
+       <a href="#pricing"> <p class="nav-link">Pricing</p>
+        </a>
+      </nav>
+     <img id="header-img" src="images/shoe.png">
+      
+    </header>
+    <h1>Nike Shop</h1>
+    
+    <p id="enter">Enter your email to get the latest shoes</p>
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+      <input id="email" type="email" placeholder="Enter Email" required>
+      <br>
+      <input id="submit" type="submit" value="submit">
+    </form>
+     <section id="review"><iframe width="560" height="315" src="https://www.youtube.com/embed/E_XLE5X2qts" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></section>
+    <h3>Pricing</h3>
+    <section id="pricing">
+      
+      <div id="base">
+        <p class="base-model">Base</p>
+        <hr>
+        <p class="price">$200</p>
+      </div>
+      <div id="limited">
+        <p class="base-model">Limited</p>
+        <hr>
+        <p class="price">$1000</p>
+      </div>
+    </section>
   </body>
 </html>
